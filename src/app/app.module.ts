@@ -17,6 +17,7 @@ import {HttpClientModule} from '@angular/common/http';
 import {SpotifyService} from './services/spotify.service';
 // Importar pipes
 import {NoimagePipe} from './pipes/noimage.pipe';
+import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import {NoimagePipe} from './pipes/noimage.pipe';
     SearchComponent,
     ArtistaComponent,
     NavbarComponent,
-    NoimagePipe
+    NoimagePipe,
+    TarjetasComponent
   ],
   imports: [
     BrowserModule,
